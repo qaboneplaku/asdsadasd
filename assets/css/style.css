@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Klavika Bold;
+    src: url("../font/Klavika-Bold.woff") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    font-family: sans-serif;
+}
+
+.all {
+    background-color: #eceff5;
+    padding-bottom: 30px;
+}
+
+.header {
+    background-color: #3b5998;
+    height: 45px;
+    color: white;
+    font-size: 27px;
+    font-family: Klavika Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 390px;
+    margin: auto;
+}
+
+form input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #e3dede;
+    font-size: 15px;
+    font-size: 14px;
+}
+
+form input[type="text"] {
+    border-bottom: 0px;
+    box-shadow: 1px 1px 3px #c9ccd2;
+}
+
+form input[type="text"], form input[type="submit"] {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+form input[type="password"], form input[type="submit"] {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+form input[type="password"] {
+    box-shadow: 1px 1px 3px #c9ccd2;
+}
+
+form input[type="submit"]{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #3578e5;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0px -1px #525252;
+    margin-top: 20px;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4d5158;
+    font-size: 15;
+    font-family: sans-serif;
+    padding-top: 15px;
+    width: 390px;
+    margin: auto;
+}
+
+.hr p {
+    padding: 0 20px;
+}
+
+.box {
+    height: 1px;
+    width: 200px;
+    background: #c4c4c4;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newacc {
+    width: 180px;
+    background-color: #00a400;
+    padding: 11px;
+    border: 1px solid #e3dede;
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0px -1px #525252;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap a {
+    color: #7596c8;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.left strong {
+    color: #90949c;
+}
+
+.wrapper {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer a {
+    font-size: 12px;
+    color: #466096;
+}
+
+footer p {
+    color: #90949c;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 416px) {
+    form,.hr,.wrapper {
+        width: 80%;
+    }
+}
